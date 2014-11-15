@@ -65,6 +65,7 @@ h3{
 }
 p{
 	font-size:1.8em;
+	font-family: 'Myriad Pro Regular';
 }
 li{
 	font-size:1.5em;
@@ -78,6 +79,7 @@ header{
 	position:relative;
 	z-index:1;
 	background-image:url('../images/bgHeaderAccueil.jpg');
+	background-repeat: no-repeat;
 }
 #cover{
 	height:717px;
@@ -138,28 +140,30 @@ nav li{
 	position:relative;
 	float:right;
 }
-#subNav{
-
-}
 .trapeze{
-	-ms-transform: perspective(100) rotateX(-45deg);
-	-moz-transform: perspective(100) rotateX(-45deg);
-    -webkit-transform: perspective(100) rotateX(-45deg);
-    transform: perspective(100) rotateX(-45deg);
-	background-color:white;
+	border-top: 50px solid white;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
 	width:23%;
-	height:45px;
 	position:relative;
 	z-index:6;
-	display:inline-block;
 	float:right;
-	margin:-4px 10% 0 0;
+	margin:0 10% 0 0;
 }
 .menuTrapeze{
 	color:#406375;
-	float:left;
-	padding: 15px 2% 0 2%;
-	-webkit-transform:perspective(+1000) rotateX(0deg);
+	font-size:0.9em;
+	position:relative;
+	top:-30px;
+	display:inline;
+	width:20%;
+	margin:auto;
+}
+.menuTrapeze:last-child{
+	text-align:right;
+}
+.menuTrapeze a{
+	padding:5%;
 }
 #btnDecouvrir{
 	text-align:center;
@@ -180,7 +184,6 @@ nav li{
 }
 .logoSociaux{
 	padding:1%;
-	max-height:100%;
 }
 /*/FIN HEADER/*/
 /*/DÉBUT HAUT PAGE CONTENU/*/
@@ -240,7 +243,6 @@ nav li{
 }
 .blocMenuFooter p{
 	color:#406375;
-	font-family: 'Myriad Pro Regular';
 	line-height:35px;
 	margin-top:50px;
 	height:340px;
@@ -302,8 +304,30 @@ nav li{
 }
 /*/FIN FOOTER NAV/*/
 /*/DÉBUT FOOTER/*/
-
-
-
+footer{
+	width:100%;
+	height:auto;
+	padding: 20px 0 20px 0;
+	background-color:#6a7783;
+	overflow:hidden;
+}
+.logoFooter{
+	width:5%;
+	padding:0 1%;
+}
+footer p{
+	clear:both;
+	font-size:1.3em;
+	color:white;
+	text-align:left;
+}
+#coordonees{
+	display:inline-block;
+	margin-left:3%;
+}
+#copyrights{
+	float:right;
+	margin-top:20px;
+}
 
 /*/FIN FOOTER/*/
