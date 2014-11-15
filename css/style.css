@@ -1,0 +1,309 @@
+@charset "utf-8";
+/*/RESET CSS/*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*/FIN RESET CSS/*/
+/*/DÉBUT GÉNÉRAL/*/
+body{
+	font-size:100%;
+}
+#wrapper{
+	height:auto;
+	width:100%;
+}
+h1{
+	font-size:2.5em;
+	font-family: 'bebas_neuebold';
+	color:white;
+}
+h2{
+	font-size:2.3em;
+}
+h3{
+	font-size:2.1em;
+}
+p{
+	font-size:1.8em;
+}
+li{
+	font-size:1.5em;
+}
+/*/FIN GÉNÉRAL/*/
+/*/DÉBUT HEADER/*/
+
+header{
+	height:840px;
+	width:100%;
+	position:relative;
+	z-index:1;
+	background-image:url('../images/bgHeaderAccueil.jpg');
+}
+#cover{
+	height:717px;
+	width:100%;
+	background-color:rgba(43,61,79,0.5);
+	position:absolute;
+	z-index:5;
+	top: 123px;
+	text-align:center;
+}
+/*/DÉBUT NAV/*/
+nav{
+	height:120px;
+	width:100%;
+	position:relative;
+	z-index:10;
+	background-color:rgba(43,61,79,0.7);
+	border-bottom:3px solid white;
+}
+#logo{
+	margin:1% 0 0 2.5%;
+	float:left;
+	max-height:100%;
+}
+#titreTechnique{
+	float:left;
+	margin:44px 0 0 0.8%;
+}
+nav ul{
+	display:inline;
+	float:right;
+	position:relative;
+	padding:44px 0 0 0;
+	width:44.5%;
+}
+nav li{
+	display:inline;
+	float:right;
+	padding:0 2% 0 2%;
+	font-family: 'bebas_neue_regularregular';
+	color:white;
+	font-size:1.5em;
+}
+#flecheNav{
+	width: 20px; 
+	height: 20px; 
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid #efefe3;
+	position:relative;
+	float:right;
+}
+.ligne{
+	width:3px;
+	height:76px;
+	background:#efefe3;
+	display:inline-block;
+	position:relative;
+	float:right;
+}
+#subNav{
+
+}
+.trapeze{
+	-ms-transform: perspective(100) rotateX(-45deg);
+	-moz-transform: perspective(100) rotateX(-45deg);
+    -webkit-transform: perspective(100) rotateX(-45deg);
+    transform: perspective(100) rotateX(-45deg);
+	background-color:white;
+	width:23%;
+	height:45px;
+	position:relative;
+	z-index:6;
+	display:inline-block;
+	float:right;
+	margin:-4px 10% 0 0;
+}
+.menuTrapeze{
+	color:#406375;
+	float:left;
+	padding: 15px 2% 0 2%;
+	-webkit-transform:perspective(+1000) rotateX(0deg);
+}
+#btnDecouvrir{
+	text-align:center;
+	color:white;
+	border:7px solid white;
+	width:36%;
+	margin:auto;
+	margin-top:255px;
+}
+#texteBtnDecouvrir{
+	padding:50px 7% 50px 7%;
+	font-size:2em;
+	font-family: 'Myriad Pro Bold Condensed';
+}
+#sectionLogoSociaux{
+	text-align:center;
+	margin-top:150px;
+}
+.logoSociaux{
+	padding:1%;
+	max-height:100%;
+}
+/*/FIN HEADER/*/
+/*/DÉBUT HAUT PAGE CONTENU/*/
+.contenuGeneral{
+	height:auto;
+	width:90%;
+ 	background-color:#3a5061;
+ 	border-top:12px solid #5d7e8c;
+ 	color:white;
+ 	padding:50px 5% 50px 5%;
+}
+.contenuGeneral h2{
+    font-family: 'bebas_neuebold';
+	padding-bottom:40px;
+}
+.contenuGeneral P{
+	font-family: 'Myriad Pro Condensed';
+	line-height:35px;
+}
+/*/FIN HAUT PAGE CONTENU/*/
+/*/DÉBUT ACTUALITÉS/*/
+#actualites{
+	width:100%;
+	height:1175px;
+	background-color:#ecf0f1;
+}
+/*/FIN ACTUALITÉS/*/
+/*/DÉBUT PORJETS ACCUEIL/*/
+#lesProjetsAccueil{
+	width:100%;
+	height:1090px;
+}
+/*/FIN PORJETS ACCUEIL/*/
+/*/DÉBUT MENU FOOTER/*/
+.menuFooter{
+	height:auto;
+	padding: 59px 5% 59px 5%;
+	background-color:#ecf0f1;
+	width:90%;
+	position:relative;
+	overflow:hidden;
+}
+.blocMenuFooter{
+	width:26.6%;
+	margin: 0 2% 0 2%;
+	background-color:white;
+	height:auto;
+	position:relative;
+	padding:60px 1.2% 60px 1.2%;
+	float:left;
+	display:block;
+}
+.blocMenuFooter h3{
+	text-align:center;
+	color:#406375;
+	font-family: 'Myriad Pro Bold';
+}
+.blocMenuFooter p{
+	color:#406375;
+	font-family: 'Myriad Pro Regular';
+	line-height:35px;
+	margin-top:50px;
+	height:340px;
+	position:relative;
+	float:left;
+}
+.blocMenuFooter ul{
+	font-family: 'bebas_neuebold';
+	float:left;
+	color:#406375;
+	line-height:35px;
+	width:100%;
+	position:relative;
+}
+.blocMenuFooter li{
+	background: url(../images/flecheList.png) no-repeat right;
+	list-style-type:none;
+	-webkit-transition: 500ms ease-out;
+    -moz-transition: 500ms ease-out;
+    -o-transition: 500ms ease-out;
+    transition: 500ms ease-out;
+     background-position: 98% 0.12em;
+}
+.blocMenuFooter li:Hover{
+	background-position: 90% 0.12em;
+	-webkit-transition:500ms ease-out;
+    -moz-transition: 500ms ease-out;
+    -o-transition: 500ms ease-out;
+    transition: 500ms ease-out;
+}
+/*/FIN MENU FOOTER/*/
+/*/DÉBUT FOOTER NAV/*/
+.footerNav{
+	width:100%;
+	height:auto;
+	background-color:#3a5061;
+	position:relative;
+	padding:50px 0 50px 0;
+	overflow:hidden;
+}
+.footerNav h3{
+	font-family: 'bebas_neuebold';
+	margin-bottom:10px;
+}
+.footerNav li{
+	font-family: 'bebas_neue_regularregular';
+	line-height:40px;
+}
+.footerNav ul{
+}
+.blocFooterNav{
+	width:20%;
+	float:left;
+	color:white;
+}
+.blocCentreContenu{
+	margin:0 auto;
+	width:86%;
+}
+/*/FIN FOOTER NAV/*/
+/*/DÉBUT FOOTER/*/
+
+
+
+
+/*/FIN FOOTER/*/
