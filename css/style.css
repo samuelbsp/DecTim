@@ -474,6 +474,7 @@ footer p{
 		padding:15px 2%;
 		font-family: 'bebas_neuebold';
 		color:white;
+		cursor: pointer;
 	}
 	/*/NAV PROGRAMME FIN/*/
 
@@ -488,11 +489,33 @@ footer p{
 
 /*/STAGES DÉBUT/*/
 
+.sectionStage{
+	background-color: #ecf0f1;
+	width: 100%;
+	height: auto;
+}
 
 	
+.conteneurStage{
+	background-color: white;
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.blocText{
+	width: 1005;
+	height: auto;
+	border-left: 10px solid #5d7e8c;
+}
+
+.textStage{
+	padding: 2% 0 2% 2.3%;
+	width: 90%; 
+}
 
 
 
 
 /*/STAGES FIN/*/
->>>>>>> Stashed changes
+
