@@ -458,17 +458,18 @@ footer p{
 	/*/FIN PROJETS ACCUEIL/*/
 
 /*/PAGE ACCUEIL FIN/*/
+<<<<<<< Updated upstream
 /*/PAGE PROGRAMME DÉBUT/*/
 
 	/*/NAV PROGRAMME DÉBUT/*/
-	#navProgramme{
+	.navProgramme{
 		background-color:#3a5061;
 		border-top:10px solid #5d7e8c;	
 	}
-	#navProgramme ul{
+	.navProgramme ul{
 		text-align:center;
 	}
-	#navProgramme li{
+	.navProgramme li{
 		display:inline-block;
 		padding:15px 2%;
 		font-family: 'bebas_neuebold';
@@ -477,3 +478,21 @@ footer p{
 	/*/NAV PROGRAMME FIN/*/
 
 /*/PAGE PROGRAMME FIN/*/
+=======
+
+
+
+
+
+
+
+/*/STAGES DÉBUT/*/
+
+
+	
+
+
+
+
+/*/STAGES FIN/*/
+>>>>>>> Stashed changes
