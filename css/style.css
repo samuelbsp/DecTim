@@ -437,7 +437,7 @@ footer p{
 	}
 	.projet:hover  .coverProjet{
 		width:100%;
-				-webkit-transition:500ms ease-out;
+		-webkit-transition:500ms ease-out;
 	    -moz-transition: 500ms ease-out;
 	    -o-transition: 500ms ease-out;
 	    transition: 500ms ease-out;
@@ -458,3 +458,22 @@ footer p{
 	/*/FIN PROJETS ACCUEIL/*/
 
 /*/PAGE ACCUEIL FIN/*/
+/*/PAGE PROGRAMME DÉBUT/*/
+
+	/*/NAV PROGRAMME DÉBUT/*/
+	#navProgramme{
+		background-color:#3a5061;
+		border-top:10px solid #5d7e8c;	
+	}
+	#navProgramme ul{
+		text-align:center;
+	}
+	#navProgramme li{
+		display:inline-block;
+		padding:15px 2%;
+		font-family: 'bebas_neuebold';
+		color:white;
+	}
+	/*/NAV PROGRAMME FIN/*/
+
+/*/PAGE PROGRAMME FIN/*/
