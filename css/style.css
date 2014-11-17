@@ -172,6 +172,17 @@ nav li{
 	width:36%;
 	margin:auto;
 	margin-top:255px;
+	-webkit-transition: 500ms ease-out;
+    -moz-transition: 500ms ease-out;
+    -o-transition: 500ms ease-out;
+    transition: 500ms ease-out;
+}
+#btnDecouvrir:hover{
+	background-color:#3a5061;
+	-webkit-transition: 500ms ease-out;
+    -moz-transition: 500ms ease-out;
+    -o-transition: 500ms ease-out;
+    transition: 500ms ease-out;
 }
 #texteBtnDecouvrir{
 	padding:50px 7% 50px 7%;
@@ -204,19 +215,6 @@ nav li{
 	line-height:35px;
 }
 /*/FIN HAUT PAGE CONTENU/*/
-/*/DÉBUT ACTUALITÉS/*/
-#actualites{
-	width:100%;
-	height:1175px;
-	background-color:#ecf0f1;
-}
-/*/FIN ACTUALITÉS/*/
-/*/DÉBUT PORJETS ACCUEIL/*/
-#lesProjetsAccueil{
-	width:100%;
-	height:1090px;
-}
-/*/FIN PORJETS ACCUEIL/*/
 /*/DÉBUT MENU FOOTER/*/
 .menuFooter{
 	height:auto;
@@ -329,5 +327,95 @@ footer p{
 	float:right;
 	margin-top:20px;
 }
-
 /*/FIN FOOTER/*/
+/*/PAGE ACCUEIL DÉBUT/*/
+	
+	/*/DÉBUT ACTUALITÉS/*/
+	#actualites{
+		width:90%;
+		height:auto;
+		background-color:#ecf0f1;
+		padding:70px 5%;
+	}
+	#actualites h2{
+		font-family: 'bebas_neuebold';
+		color:#406375;
+	}
+	.blocActualites{
+		background-color:white;
+		width:25%;
+		height:auto;
+		margin:50px 7.5% 0 0;
+		display:inline-block;
+		border-left:12px solid #5d7e8c;
+	}
+	.blocActualites:last-child{
+		margin-right:0%;
+	}
+	.banniereActualite{
+		width:100%;
+		max-width:100%;
+	}
+	.blocActualites h3{
+		font-family: 'Myriad Pro Bold';
+		padding:10px 3% 10px 3%;
+		color:#406375;
+	}
+	.blocActualites p{
+		padding:0 3% 20px 3%;
+		color:#406375;
+	}
+	.dateActualite{
+		font-size:1.3em;
+	}
+	.lienLireSuite{
+		float:left;
+	}
+	.flecheLireSuite{
+		max-width:5%;
+		float:left;
+		margin-top:4px;
+		-webkit-transition:500ms ease-out;
+	    -moz-transition: 500ms ease-out;
+	    -o-transition: 500ms ease-out;
+	    transition: 500ms ease-out;
+	}
+	.lienLireSuite:hover ~ .flecheLireSuite{
+		margin-left:10%;
+		-webkit-transition:500ms ease-out;
+	    -moz-transition: 500ms ease-out;
+	    -o-transition: 500ms ease-out;
+	    transition: 500ms ease-out;
+	}
+	.btnActualites{
+		margin:auto;
+		width:20%;
+		border:7px solid #5d7e8c;
+		-webkit-transition:500ms ease-out;
+	    -moz-transition: 500ms ease-out;
+	    -o-transition: 500ms ease-out;
+	    transition: 500ms ease-out;
+	}
+	.btnActualites:hover{
+		background-color:white;
+		-webkit-transition:500ms ease-out;
+	    -moz-transition: 500ms ease-out;
+	    -o-transition: 500ms ease-out;
+	    transition: 500ms ease-out;
+	}
+	.btnActualites p{
+		text-align:center;
+		color:#5d7e8c;
+		margin:30px 0 30px 0;
+		font-family: 'Myriad Pro Bold';
+	}
+	/*/FIN ACTUALITÉS/*/
+	
+	/*/DÉBUT PROJETS ACCUEIL/*/
+	#lesProjetsAccueil{
+		width:100%;
+		height:1090px;
+	}
+	/*/FIN PROJETS ACCUEIL/*/
+
+/*/PAGE ACCUEIL FIN/*/
