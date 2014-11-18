@@ -426,14 +426,33 @@ footer p{
 		top:0;
 		left:0;
 		z-index:20;
-		background-color:rgba(0,0,0,0.7);
+		background-color:rgba(195,106,31,0.9);
 		width:0%;
 		height:100%;
 		float:left;
+		text-align:center;
 		-webkit-transition:500ms ease-out;
 	    -moz-transition: 500ms ease-out;
 	    -o-transition: 500ms ease-out;
 	    transition: 500ms ease-out;
+	}
+	.texteCover{
+		color:white;
+		opacity:0;
+		-webkit-transition:200ms ease-out;
+	    -moz-transition: 200ms ease-out;
+	    -o-transition: 200ms ease-out;
+	    transition: 200ms ease-out;
+	}
+	.coverProjet h2{
+		font-family: 'bebas_neuebold';
+		padding-top:65px;
+	}
+	.coverProjet h3{
+		font-family: 'bebas_neue_regularregular';
+	}
+	.coverProjet p{
+	    font-family: 'bebas_neuebook';	
 	}
 	.projet:hover  .coverProjet{
 		width:100%;
@@ -442,12 +461,20 @@ footer p{
 	    -o-transition: 500ms ease-out;
 	    transition: 500ms ease-out;
 	}
+	.projet:hover .texteCover{
+		opacity:1;
+		-webkit-transition:1000ms ease-out;
+	    -moz-transition: 1000ms ease-out;
+	    -o-transition: 1000ms ease-out;
+	    transition: 1000ms ease-out;
+	}
 	.projet{
 		width:25%;
 		float:left;
 		z-index:10;
 		height:auto;
 		position:relative;
+		overflow:hidden;
 	}
 	.imgProjet{
 		max-width:100%;
@@ -458,7 +485,6 @@ footer p{
 	/*/FIN PROJETS ACCUEIL/*/
 
 /*/PAGE ACCUEIL FIN/*/
-
 /*/PAGE PROGRAMME DÉBUT/*/
 
 	/*/NAV PROGRAMME DÉBUT/*/
@@ -474,48 +500,98 @@ footer p{
 		padding:15px 2%;
 		font-family: 'bebas_neuebold';
 		color:white;
-		cursor: pointer;
+		cursor:  pointer;
+		-webkit-transition: all 1s ease-in-out;
+		-moz-transition: all 1s ease-in-out;
+		-ms-transition: all 1s ease-in-out;
+		-o-transition: all 1s ease-in-out;
+		transition: all 1s ease-in-out;
 	}
 	/*/NAV PROGRAMME FIN/*/
+	/*/SECTION PROGRAMME DÉBUT/*/
+	.sections{
+		width:80%;
+		padding:0 10%;
+		max-height:0px;
+		background-color:#ecf0f1;
+		position:relative;
+		overflow:hidden;
+		height:auto;
+		opacity:0%;
+		-webkit-transition: all 1s ease-in-out;
+		-moz-transition: all 1s ease-in-out;
+		-ms-transition: all 1s ease-in-out;
+		-o-transition: all 1s ease-in-out;
+		transition: all 1s ease-in-out;
+	}
+	.sections img{
+		max-width:100%;
+	}
+	.toggleProgramme{
+		max-height:10000px!important;
+		height:auto;
+		opacity:100%;
+		-webkit-transition: all 1s ease-in-out;
+		-moz-transition: all 1s ease-in-out;
+		-ms-transition: all 1s ease-in-out;
+		-o-transition: all 1s ease-in-out;
+		transition: all 1s ease-in-out;
+	}
+	.partieSection{
+		width:100%;
+		background-color:white;
+		height:auto;
+		position:relative;
+		overflow:hidden;
+	}
+	.partieSection ul{
+		 list-style-image:url("../images/flecheList2.png");
+		 line-height:30px;
+	}
+	.textePartieSection{
+		width:94%;
+		border-left:10px solid #5d7e8c;
+		color:#406375;
+		padding:45px 3%;
+		margin-top:-4px;
+		height:auto;
+		overflow:hidden;
+	}
+	.textePartieSection h2{
+		font-family:'bebas_neuebold';
+		margin-bottom:30px;
+	}
+	.separateurSection{
+		width:20%;
+		height:2px;
+		background-color: #5d7e8c;
+		display: block;
+		margin:50px auto;
+	}
+	.blocSession{
+		width:20%;
+		padding:0 6% 0 6%;
+		float:left;
+	}
+	.blocSession h3{
+		font-family:'bebas_neuebold';
+		margin-bottom:10px;
+		font-size:1.5em;
+	}
+	.blocSession ul{
+		font-family: 'Myriad Pro Regular';
+		list-style-image:none;
+
+	}
+	.blocSession li{
+		font-size:1em;
+	}
+	.hautBas{
+		width:100%;
+		height:auto;
+		float:left;
+		padding-bottom:30px;
+	}
+	/*/SECTION PROGRAMME FIN/*/
 
 /*/PAGE PROGRAMME FIN/*/
-
-
-
-
-
-
-
-
-/*/STAGES DÉBUT/*/
-
-.sectionStage{
-	background-color: #ecf0f1;
-	width: 100%;
-	height: auto;
-}
-
-	
-.conteneurStage{
-	background-color: white;
-	width: 80%;
-	height: auto;
-	margin: 0 auto;
-}
-
-.blocText{
-	width: 1005;
-	height: auto;
-	border-left: 10px solid #5d7e8c;
-}
-
-.textStage{
-	padding: 2% 0 2% 2.3%;
-	width: 90%; 
-}
-
-
-
-
-/*/STAGES FIN/*/
-
